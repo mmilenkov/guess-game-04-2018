@@ -1,0 +1,85 @@
+body
+{
+	background-color: #232323;
+	margin: 0 ;
+	font-family: 'Do Hyeon', sans-serif;
+}
+
+.square
+{
+width: 30%;
+margin: 1.66%;
+padding-bottom: 30%;
+float: left;
+border-radius: 25%;
+transition: background 0.5s;
+--webkit-transition: background 0.5s;  /*browser support */
+--moz-transition: background 0.5s; /*browser support */
+}
+
+.container
+{
+	margin: 0 auto;
+	max-width: 600px;
+
+}
+
+.selected
+{
+	background-color: blue;
+}
+
+#stripe
+{
+	background-color: white;
+	height: 40px;
+	text-align: center;
+}
+
+h1
+{
+	font-weight: normal;
+	text-align: center; 
+	color:white;
+	background-color: steelblue;
+	margin: 0;
+	height: 30%;
+	line-height:1.1;
+}
+
+#gameStatus
+{
+	display:inline-block;
+	width:20%;
+}
+button
+{
+	height: 100%;
+	background-color: white;
+	color:steelblue;
+	font-family: 'Titan One', cursive;
+	border: none;
+	transition: all 0.4s;
+}
+
+.hover
+{
+	background-color: steelblue;
+	color:white;
+}
+
+#hard
+{
+	margin-right: 20%;
+}
+
+#reset
+{
+	margin-left: 20%;
+}
+
+#colorDisplay
+{
+	font-size: 150%;
+	text-transform: uppercase;
+}
