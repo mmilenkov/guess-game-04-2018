@@ -5,7 +5,7 @@ var colorDisplay = document.querySelector("#colorDisplay")
 colorDisplay.textContent = pickedColor;
 var guessStatus = document.querySelector("#gameStatus")
 var gameOver = false;
-var gameDiff = 9;
+var gameDiff = 6;
 var easyGame = document.querySelector("#easy");
 var hardGame = document.querySelector("#hard");
 var h1 = document.querySelector("h1");
@@ -13,7 +13,7 @@ var resetBttn = document.querySelector("#reset");
 
 
 easyGame.addEventListener("click", function(){
-	gameDiff = 6;
+	gameDiff = 3;
 	h1.style.backgroundColor = "steelblue";
 	hardGame.classList.remove("hover");
 	easyGame.classList.add("hover");
@@ -34,7 +34,7 @@ easyGame.addEventListener("click", function(){
 })
 
 hardGame.addEventListener("click", function(){
-	gameDiff = 9;
+	gameDiff = 6;
 	h1.style.backgroundColor = "steelblue";
 	hardGame.classList.add("hover");
 	easyGame.classList.remove("hover");
