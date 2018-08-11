@@ -21,7 +21,6 @@ transition: background 0.5s;
 {
 	margin: 0 auto;
 	max-width: 600px;
-
 }
 
 .selected
@@ -66,16 +65,6 @@ button
 {
 	background-color: steelblue;
 	color:white;
-}
-
-#hard
-{
-	margin-right: 20%;
-}
-
-#reset
-{
-	margin-left: 20%;
 }
 
 #colorDisplay
